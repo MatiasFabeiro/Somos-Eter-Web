@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Somos-Eter-Web/static/css/main.deda0a72.css",
-    "main.js": "/Somos-Eter-Web/static/js/main.ded46b8d.js",
+    "main.css": "/Somos-Eter-Web/static/css/main.3bfd49a9.css",
+    "main.js": "/Somos-Eter-Web/static/js/main.1a5130c6.js",
     "static/media/reelGif.gif": "/Somos-Eter-Web/static/media/reelGif.ebc08c7f1a96ea7ad0c0.gif",
     "static/media/manifiestoGif.gif": "/Somos-Eter-Web/static/media/manifiestoGif.4eb1178c84d3ebc13ec4.gif",
     "static/media/Recurso15.png": "/Somos-Eter-Web/static/media/Recurso15.41cde74389df4ba21b44.png",
     "static/media/dibusGif.gif": "/Somos-Eter-Web/static/media/dibusGif.2f3ed4b1c2bc2f5b49d1.gif",
     "static/media/hackermanGif.gif": "/Somos-Eter-Web/static/media/hackermanGif.c473252877878091844e.gif",
-    "static/media/Presentacion.png": "/Somos-Eter-Web/static/media/Presentacion.c6f82b0273ddb4af35f2.png",
     "static/media/Recurso73.png": "/Somos-Eter-Web/static/media/Recurso73.d58ade11b4a44f35a3a2.png",
+    "static/media/Presentacion.png": "/Somos-Eter-Web/static/media/Presentacion.d8b3331b39fa1e7239a9.png",
     "static/media/animacionesGif.gif": "/Somos-Eter-Web/static/media/animacionesGif.10915c8c8acd3290f586.gif",
     "static/media/hackermanAudio.m4a": "/Somos-Eter-Web/static/media/hackermanAudio.7a320f9eaca7cfc55db0.m4a",
     "static/media/yacasiestamosAudio.mp4": "/Somos-Eter-Web/static/media/yacasiestamosAudio.26876b61269501b979a7.mp4",
     "static/media/animacionesAudio.m4a": "/Somos-Eter-Web/static/media/animacionesAudio.bca04236028a7d58770f.m4a",
+    "static/media/Recurso2.png": "/Somos-Eter-Web/static/media/Recurso2.34d2be63084f5537ae09.png",
     "static/media/reelAudio.mp4": "/Somos-Eter-Web/static/media/reelAudio.ee139913211a6dc7c1ed.mp4",
     "static/media/hackermanGif2.gif": "/Somos-Eter-Web/static/media/hackermanGif2.6053fe6d645881f00426.gif",
     "static/media/laCajaGif.gif": "/Somos-Eter-Web/static/media/laCajaGif.b71299778536c8c5cdd1.gif",
     "static/media/Recurso27.png": "/Somos-Eter-Web/static/media/Recurso27.4ae6146f9850339fa296.png",
     "static/media/Recurso36.png": "/Somos-Eter-Web/static/media/Recurso36.a5cb0160c5f4acd79012.png",
-    "static/media/Recurso2.png": "/Somos-Eter-Web/static/media/Recurso2.7392e91fcd7cd9a7bb34.png",
     "static/media/Recurso96.png": "/Somos-Eter-Web/static/media/Recurso96.af4266781a2c4e7200d5.png",
     "static/media/Recurso69.png": "/Somos-Eter-Web/static/media/Recurso69.449b5031d967e911a22a.png",
     "static/media/audioEmo.aac": "/Somos-Eter-Web/static/media/audioEmo.5ebe45ed82795ef39588.aac",
@@ -56,11 +56,11 @@
     "static/media/CosasQueSeMueven.png": "/Somos-Eter-Web/static/media/CosasQueSeMueven.0a9da9940c1b1c15db87.png",
     "static/media/Recurso17.png": "/Somos-Eter-Web/static/media/Recurso17.16a1bc6642d872d3b6a6.png",
     "index.html": "/Somos-Eter-Web/index.html",
-    "main.deda0a72.css.map": "/Somos-Eter-Web/static/css/main.deda0a72.css.map",
-    "main.ded46b8d.js.map": "/Somos-Eter-Web/static/js/main.ded46b8d.js.map"
+    "main.3bfd49a9.css.map": "/Somos-Eter-Web/static/css/main.3bfd49a9.css.map",
+    "main.1a5130c6.js.map": "/Somos-Eter-Web/static/js/main.1a5130c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.deda0a72.css",
-    "static/js/main.ded46b8d.js"
+    "static/css/main.3bfd49a9.css",
+    "static/js/main.1a5130c6.js"
   ]
 }
