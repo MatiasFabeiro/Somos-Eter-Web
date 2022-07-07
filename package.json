@@ -2,7 +2,7 @@
   "name": "my-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://MatiasFabeiro.github.io/Somos-Eter-Web",
+  "homepage": "https://MatiasFabeiro.github.io/Somos-Eter-Web",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
