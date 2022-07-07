@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Somos-Eter-Web/static/css/main.8c694e75.css",
+    "main.css": "/Somos-Eter-Web/static/css/main.b8f119a9.css",
     "main.js": "/Somos-Eter-Web/static/js/main.1a5130c6.js",
     "static/media/reelGif.gif": "/Somos-Eter-Web/static/media/reelGif.ebc08c7f1a96ea7ad0c0.gif",
     "static/media/manifiestoGif.gif": "/Somos-Eter-Web/static/media/manifiestoGif.4eb1178c84d3ebc13ec4.gif",
@@ -56,11 +56,11 @@
     "static/media/CosasQueSeMueven.png": "/Somos-Eter-Web/static/media/CosasQueSeMueven.0a9da9940c1b1c15db87.png",
     "static/media/Recurso17.png": "/Somos-Eter-Web/static/media/Recurso17.16a1bc6642d872d3b6a6.png",
     "index.html": "/Somos-Eter-Web/index.html",
-    "main.8c694e75.css.map": "/Somos-Eter-Web/static/css/main.8c694e75.css.map",
+    "main.b8f119a9.css.map": "/Somos-Eter-Web/static/css/main.b8f119a9.css.map",
     "main.1a5130c6.js.map": "/Somos-Eter-Web/static/js/main.1a5130c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c694e75.css",
+    "static/css/main.b8f119a9.css",
     "static/js/main.1a5130c6.js"
   ]
 }
