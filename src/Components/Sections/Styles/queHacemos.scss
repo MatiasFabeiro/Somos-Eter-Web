@@ -1,0 +1,132 @@
+.queHacemosGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.queHacemosSectionContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.queHacemosTitleImg{
+    width: 40%;
+    height: auto;
+    align-self: flex-end;
+    padding: 0 10rem 0 0;
+}
+
+.queHacemosSectionContainer2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.queHacemosTextImgContainer{
+    width: 50%;
+    height: auto;
+}
+
+.queHacemosTextImg{
+    width: 80%;
+    height: auto;
+    padding: 5rem 0 0 20rem;
+}
+
+.queHacemosLinesImgContainer{
+    width: 50%;
+    height: auto;
+}
+
+.queHacemosLinesImg{
+    width: 40%;
+    height: auto;
+}
+
+.laPreviaImgContainer{
+    width: 90%;
+    height: auto;
+    position: relative;
+    bottom: 100px;
+}
+
+.laPreviaImg{
+    width: 50%;
+    height: auto;
+}
+
+.queHacemosSectionContainer3{
+    display: flex;
+}
+
+.rightLineContainer{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    position: relative;
+    bottom: 200px;
+    padding: 0 0 0 12rem;
+}
+
+.rightLine{
+    width: 15%;
+    height: auto;
+}
+
+@media screen and (max-width: 1360px){
+
+    .queHacemosTitleImg{
+        width: 40%;
+        height: auto;
+        align-self: flex-end;
+        padding: 0 1rem 0 0;
+    }
+
+    .queHacemosTextImgContainer{
+        width: 50%;
+        height: auto;
+    }
+    
+    .queHacemosTextImgContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 3rem;
+    }
+    
+    .queHacemosLinesImgContainer{
+        width: 80%;
+        height: auto;
+    }
+    
+    .queHacemosLinesImg{
+        width: 50%;
+        height: auto;
+    }
+
+    .laPreviaImgContainer{
+        width: 90%;
+        height: auto;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .laPreviaImg{
+        width: 50%;
+        height: auto;
+    }
+
+    .rightLineContainer{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        position: relative;
+        bottom: 100px;
+        padding: 0 0 0 5rem;
+    }
+    
+    .rightLine{
+        width: 15%;
+        height: auto;
+    }
+}

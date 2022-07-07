@@ -1,0 +1,277 @@
+
+.hackermanGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.hackermanContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.HackermanTitleImgContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 5rem;
+}
+
+.HackermanTitleImg{
+    width: 50%;
+    height: auto;
+}
+
+.HackermanTextImgContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 5rem;
+}
+
+.HackermanTextImg{
+    width: 25%;
+    height: auto;
+}
+
+.HackermanTextAudioLinesContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.HackermanTextImg2Container{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 10%;
+    padding: 17rem 0 0 0;
+}
+
+.HackermanTextImg2{
+    width: 100%;
+    height: auto;
+}
+
+
+.PlayerHackermanLinesAndAudioImgContainer{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.PlayerHackermanLineImgContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 20%;
+    padding: 0 0 3rem 0;
+}
+
+.PlayerHackermanLineImg{
+    width: 40%;
+    height: auto;
+}
+
+.PlayerHackermanAudioWppImgContainer{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 3rem;
+}
+
+.PlayerHackermanAudioWppImg{
+    //width: 45%;
+    //height: auto;
+    cursor: pointer;
+    -webkit-animation: hackermanAudioAnimatePlayer 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes hackermanAudioAnimatePlayer {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 45%;
+    
+        }
+    }
+}
+
+.PlayerHackermanLineImg2Container{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 0 0;
+}
+
+.PlayerHackermanLineImg2{
+    width: 2%;
+    height: auto;
+}
+
+.HackermanLinesAndAudioImgContainer{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.HackermanLineImgContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 20%;
+    padding: 0 0 3rem 0;
+}
+
+.HackermanLineImg{
+    width: 40%;
+    height: auto;
+}
+
+.HackermanAudioWppImgContainer{
+    width: 100%;
+    height: 150px;
+}
+
+.HackermanAudioWppImg{
+    //width: 15%;
+    height: auto;
+    cursor: pointer;
+    -webkit-animation: hackermanAnimateAudioImg 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes hackermanAnimateAudioImg {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 15%;
+    
+        }
+    }
+}
+
+.HackermanLineImg2Container{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 0 0;
+}
+
+.HackermanLineImg2{
+    width: 2%;
+    height: auto;
+}
+
+.HackermanTextWorkContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 3rem 0 0 0;
+}
+
+.HackermanTextImg3Container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 15%;
+    top: 10rem;
+}
+
+.HackermanTextImg3{
+    width: 70%;
+    height: auto;
+}
+
+.HackermanWorkImgContainer{
+    width: 100%;
+    height: auto;
+}
+
+.HackermanWorkImg{
+    width: 30%;
+    height: auto;
+}
+
+.HackermanLineImg3Container{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 0 0;
+    position: relative;
+    left: 5%;
+}
+
+.HackermanLineImg3{
+    width: 30%;
+    height: auto;
+}
+
+.HackermanWorkandTextImg2Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 3rem 0 0 0;
+}
+
+.HackermanWorkImg2Container{
+    width: 100%;
+    height: auto;
+}
+
+.HackermanWorkImg2{
+    width: 50%;
+    height: auto;
+}
+
+.HackermanTextImg4Container{
+    width: 50%;
+    height: auto;
+    position: relative;
+    right: 10%;
+    padding: 25rem 0 0 0;
+}
+
+.HackermanTextImg4{
+    width: 100%;
+    height: auto;
+}
+
+.HackermanLineImg4Container{
+    width: 100%;
+    height: auto;
+}
+
+.HackermanLineImg4{
+    width: 15%;
+    height: auto;
+    position: relative;
+    right: 10%;
+    padding: 3rem 0 0 0;
+}
+
+@media screen and (max-width: 1360px){
+    .HackermanTextImg3Container{ 
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 15%;
+        top: 5rem;
+    }
+    .HackermanTextImg4Container{
+        width: 50%;
+        height: auto;
+        position: relative;
+        right: 10%;
+        padding: 10rem 0 0 0;
+    }
+}

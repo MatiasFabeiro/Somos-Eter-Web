@@ -1,0 +1,54 @@
+.premisaGeneralContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.premisaLineImgContainer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+};
+
+.premisaTitleImgContainer{
+    width: 100%;
+    height: auto; 
+};
+
+.premisaTitleImg{
+    width: 40%;
+    height: auto; 
+}
+
+.premisaTextImgContainer{
+    width: 100%;
+    height: auto; 
+};
+
+.premisaTextImg{
+    width: 40%;
+    height: auto; 
+};
+
+.premisaLineOutImgContainer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 15rem;
+};
+
+
+@media screen and (max-width: 1360px) {
+    .premisaLineImg{
+        width: 10px;
+        height: auto;
+    };
+
+    .premisaLineOutImg{
+        width: 30%;
+        height: auto;
+    };
+
+    .premisaLineOutImgContainer{
+        padding: 3rem 0 3rem 8rem;
+    };
+}

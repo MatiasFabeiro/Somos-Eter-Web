@@ -1,0 +1,169 @@
+
+.CasiEstamosGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.CasiEstamosContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.CasiEstamosTitleContainer{
+    width: 100%;
+    height: auto;
+}
+
+.CasiEstamosTitle{
+    width: 50%;
+    height: auto;
+}
+
+.CasiEstamosLinesAudioTextContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 3rem 0 0 0;
+}
+
+
+.PlayerCasiEstamosLinesAudioContainer{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.PlayerCasiEstamosLineContainer{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    left: 20%;
+}
+
+.PlayerCasiEstamosLine{
+    width: 40%;
+    height: auto;
+}
+
+.PlayerCasiEstamosAudioWppContainer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+    position: relative;
+    bottom: 5rem;
+}
+
+.PlayerCasiEstamosAudioWpp{
+    //width: 35%;
+    //height: auto;
+    cursor: pointer;
+    -webkit-animation: casiestamosAnimatePlayer 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes casiestamosAnimatePlayer {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 35%;
+    
+        }
+    }
+}
+
+.PlayerCasiEstamosLine2Container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 20%;
+}
+
+.PlayerCasiEstamosLine2{
+    width: 40%;
+    height: auto;
+}
+
+.CasiEstamosLinesAudioContainer{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.CasiEstamosLineContainer{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    left: 20%;
+}
+
+.CasiEstamosLine{
+    width: 40%;
+    height: auto;
+}
+
+.CasiEstamosAudioWppContainer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+}
+
+.CasiEstamosAudioWpp{
+    //width: 20%;
+    //height: auto;
+    cursor: pointer;
+    -webkit-animation: casiestamosAnimateAudioImg 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes casiestamosAnimateAudioImg {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 20%;
+    
+        }
+    }
+}
+
+.CasiEstamosLine2Container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 20%;
+}
+
+.CasiEstamosLine2{
+    width: 40%;
+    height: auto;
+}
+
+.CasiEstamosTextContainer{
+    width: 100%;
+    height: auto;
+    padding: 25rem 0 0 0;
+    position: relative;
+    right: 15%;
+}
+
+.CasiEstamosText{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1360px) {
+    .CasiEstamosTextContainer{
+        width: 100%;
+        height: auto;
+        padding: 10rem 0 0 0;
+        position: relative;
+        right: 15%;
+    }
+}

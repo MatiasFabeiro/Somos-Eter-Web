@@ -1,0 +1,297 @@
+.arrancaGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.arrancaContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.arrancaTitleImgContainer{
+    width: 100%;
+    height: auto;
+    padding: 0 0 3rem 0;
+}
+
+.arrancaTitleImg{
+    width: 50%;
+    height: auto;
+    position: relative;
+    bottom: 2rem;
+}
+
+.arrancaInfoContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.arrancaTitleLinesImgContainer{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 25%;
+}
+
+.arrancaTitleLinesImg{
+    width: 100%;
+    height: auto;
+}
+
+.arrancaRightTextImgContainer{
+    width: 50%;
+    height: auto;
+    padding: 5rem 0 0 0;
+    position: relative;
+    right: 10%;
+}
+
+.arrancaRightTextImg{
+    width: 100%;
+    height: auto;
+}
+
+.arrancaInfoContainer2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.arrancaLeftTextImgContainer{
+    width: 50%;
+    height: auto;
+    position: relative;
+    padding: 4.5rem 0 0 0;
+    left: 15%;
+}
+
+.arrancaLeftTextImg{
+    width: 100%;
+    height: auto;
+}
+
+.arrancaSectionPlayerContainer{
+    width: 20%;
+    padding: 5% 0 0 15%;
+}
+
+.arrancaSectionPlayer{
+    //width: 100%;
+    -webkit-animation: arrancaAnimatePlayer1 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes arrancaAnimatePlayer1 {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+    
+        }
+    }
+}
+
+.arrancaWppAudioImgContainer{
+    width: 50%;
+    height: auto;
+}
+
+.arrancaWppAudioImg{
+    width: 15%;
+    height: auto;
+    padding: 3rem 0 0 0;
+    cursor: pointer;
+    -webkit-animation: arrancaAnimateAudioImg1 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes arrancaAnimateAudioImg1 {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 15%;
+    
+        }
+    }
+}
+
+.arrancaComputerContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.arrancaRightLineImgContainer{
+    width: 10%;
+    height: auto;
+}
+
+.arrancaRightLineImg{
+    width: 100%;
+    height: auto;
+}
+
+.arrancaComputerImgContainer{
+    width: 50%;
+    height: auto;}
+
+.arrancaComputerImg{
+    width: 100%;
+    height: auto;
+}
+
+.arrancaLeftLineImgContainer{
+    width: 10%;
+    height: auto;
+    padding: 0 0 0 5rem;
+    position: relative;
+    top: 25rem;
+}
+
+.arrancaLeftLineImg{
+    width: 100%;
+    height: auto;
+}
+
+.arrancaInfoContainer3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.arrancaWppAudioAndLeftLineContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.arrancaSectionPlayer2Container{
+    width: 40%;
+    height: 100px;
+    padding: 20% 0 0 5%;
+    position: relative;
+    top: 2rem;
+    -webkit-animation: arrancaAnimatePlayer2 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes arrancaAnimatePlayer2 {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 40%;
+    
+        }
+    }
+}
+
+.arrancaSectionPlayer2{
+    width: 100%;
+}
+
+.arrancaWppAudioImg2Container{
+    width: 100%;
+    height: 100px;
+    padding: 20% 0 0 5%;
+    position: relative;
+    right: 45%;
+}
+
+.arrancaWppAudioImg2{
+    // width: 15%;
+    // height: auto;
+    //padding: 0 10% 0 0;
+    position: relative;
+    bottom: 1rem;
+    cursor: pointer;
+    -webkit-animation: arrancaAnimateAudioImg2 0.3s ease;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes arrancaAnimateAudioImg2 {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 16%;
+        }
+    }
+}
+
+.arrancaLeftLineImg2Container{
+    width: 100%;
+    height: auto;
+    //padding: 5rem 0 0 0;
+    position: relative;
+    right: 15%;
+    top: 5rem;
+}
+
+.arrancaLeftLineImg2{
+    width: 50%;
+    height: auto;
+}
+
+.arrancaComputerTextAndText2Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.arrancaComputerTextContainer{
+    width: 100%;
+    height: auto;
+}
+
+.arrancaComputerText{
+    width: 80%;
+    height: auto;
+    position: relative;
+    right: 70%;
+}
+
+.arrancaComputerTextContainer2{
+    width: 100%;
+    height: auto;
+}
+
+.arrancaComputerText2{
+    width: 80%;
+    height: auto;
+    position: relative;
+    right: 65%;
+    top: 3.5rem;
+}
+
+@media screen and (max-width: 1480px){
+    .arrancaLeftLineImgContainer{
+        width: 10%;
+        height: auto;
+        padding: 0 0 0 5rem;
+        position: relative;
+        top: 20rem;
+    }
+}
+
+@media screen and (max-width: 1360px){
+    .arrancaLeftLineImgContainer{
+        width: 10%;
+        height: auto;
+        padding: 0 0 0 5rem;
+        position: relative;
+        top: 15rem;
+    }
+}
+

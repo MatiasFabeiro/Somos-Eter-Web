@@ -1,0 +1,177 @@
+.manifiestoGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.manifiestoContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.manifiestoTitleImgContainer{
+    width: 100%;
+    height: auto;
+}
+
+.manifiestoTitleImg{
+    width: 50%;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+}
+
+
+.manifiestoGifContainer{
+    width: 100%;
+    height: auto;
+}
+
+.manifiestoGif{
+    width: 50%;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+}
+
+
+.manifiestoInfoContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.manifiestoTextImgContainer{
+    width: 50%;
+    height: auto;
+    padding: 15rem 0 0 0;
+    position: relative;
+    left: 15%;
+}
+
+.manifiestoTextImg{
+    width: 100%;
+    height: auto;
+}
+
+.manifiestoIconsImgContainer{
+    width: 50%;
+    height: auto;
+    position: relative;
+    right: 15%;
+}
+
+.manifiestoIconsImg{
+    width: 100%;
+    height: auto;
+}
+
+.manifiestoInfoContainer2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.manifiestoSectionPlayerContainer{
+    width: 20%;
+    height: 100px;
+    padding: 5% 0 0 20%;
+    -webkit-animation: animatePlayer 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes animatePlayer {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 20%;
+    
+        }
+    }
+}
+
+.manifiestoSectionPlayer{
+    width: 100%;
+}
+
+
+.manifiestoPlayerTextImgContainer2{
+    width: 50%;
+    height: auto;
+    padding: 7rem 0 0 0;
+    position: relative;
+    left: 5%;
+    bottom: 3rem;
+}
+
+.manifiestoPlayerTextImg2{
+    width: 100%;
+    height: auto;
+}
+
+.manifiestoAudioWppImgContainer{
+    width: 50%;
+    height: 100px;
+    padding: 4rem 0 5rem 0;
+    position: relative;
+    left: 5%;
+}
+
+.manifiestoAudioWppImg{
+    //width: 20%;
+    //height: auto;
+    cursor: pointer;
+    -webkit-animation: animateAudioImg 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes animateAudioImg {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 15%;
+    
+        }
+    }
+}
+
+.manifiestoTextImgContainer2{
+    width: 50%;
+    height: auto;
+    padding: 7rem 0 0 0;
+    position: relative;
+    right: 10%;
+    bottom: 3rem;
+}
+
+.manifiestoTextImg2{
+    width: 100%;
+    height: auto;
+}
+
+
+.manifiestoIconsImgContainer2{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 10%;
+}
+
+.manifiestoIconsImg2{
+    width: 25%;
+    height: auto;
+}
+
+@media screen and (max-width: 1360px){
+    .manifiestoTextImgContainer{
+        width: 50%;
+        height: auto;
+        padding: 10rem 0 0 0;
+        position: relative;
+        left: 15%;
+    }
+}

@@ -1,0 +1,189 @@
+
+.ReelGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.ReelContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.ReelTitleContainer{
+    width: 100%;
+    height: auto;
+}
+
+.ReelTitle{
+    width: 50%;
+    height: auto;
+}
+
+.ReelWorkContainer{
+    width: 100%;
+    height: auto;
+}
+
+.ReelWork{
+    width: 50%;
+    height: auto;
+}
+
+.ReelTextLinesAudioContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 3rem 0 3rem 0;
+}
+
+.ReelTextContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 15%;
+    padding: 20rem 0 0 0;
+}
+
+.ReelText{
+    width: 100%;
+    height: auto;
+}
+
+
+.PlayerReelLinesAudioContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.PlayerReelLineContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 20%;
+}
+
+.PlayerReelLine{
+    width: 40%;
+    height: auto;
+}
+
+.PlayerReelAudioWppContainer{
+    width: 100%;
+    height: 150px;
+    padding: 3rem 0 3rem 0;
+    position: relative;
+    top: 2rem;
+}
+
+.PlayerReelAudioWpp{
+    //width: 35%;
+    //height: auto;
+    -webkit-animation: reelAnimatePlayer 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes reelAnimatePlayer {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 35%;
+    
+        }
+    }
+}
+
+.PlayerReelLine2Container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 20%;
+}
+
+.PlayerReelLine2{
+    width: 40%;
+    height: auto;
+}
+
+.ReelLinesAudioContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.ReelLineContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 20%;
+}
+
+.ReelLine{
+    width: 40%;
+    height: auto;
+}
+
+.ReelAudioWppContainer{
+    width: 100%;
+    height: 150px;
+    padding: 3rem 0 3rem 0;
+}
+
+.ReelAudioWpp{
+    //width: 15%;
+    //height: auto;
+    cursor: pointer;
+    -webkit-animation: reelAnimateAudioImg 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes reelAnimateAudioImg {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 15%;
+    
+        }
+    }
+}
+
+.ReelLine2Container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 20%;
+}
+
+.ReelLine2{
+    width: 40%;
+    height: auto;
+}
+
+.CestFiniTitleContainer{
+    width: 100%;
+    height: auto;
+}
+
+.CestFiniTitle{
+    width: 50%;
+    height: auto;
+    padding: 0 0 20rem 0;
+}
+
+@media screen and (max-width: 1360px) {
+    .ReelTextContainer{
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 15%;
+        padding: 15rem 0 0 0;
+    }
+}

@@ -1,0 +1,84 @@
+
+.CajaGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.CajaContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+.cajaTitleImgContainer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+}
+
+.cajaTitleImg{
+    width: 50%;
+    height: auto;
+}
+
+.cajaTextImgContainer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+}
+
+.cajaTextImg{
+    width: 70%;
+    height: auto;
+}
+
+.cajaImgContainer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+}
+
+.cajaImg{
+    width: 50%;
+    height: 500px;
+    cursor: pointer;
+}
+
+.cajaTextImgContainer2{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+}
+
+.cajaTextImg2{
+    width: 50%;
+    height: auto;
+}
+
+.cajaImgContainer2{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+}
+
+.cajaImg2{
+    width: 50%;
+    height: auto;
+}
+
+.cajaIconImgContainer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+    position: relative;
+    right: 15%;
+}
+
+.cajaIconImg{
+    width: 20%;
+    height: auto;
+}

@@ -1,0 +1,221 @@
+.mailGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.mailContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.mailTitleContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 15rem;
+    left: 5rem;
+}
+
+.mailTitleImg{
+    width: 30%;
+    height: auto;
+}
+
+.MailInfoContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.leftLinesContainer{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 0 0 15rem;
+}
+
+.LeftLine1Container{
+    width: 60%;
+    height: auto;
+    position: relative;
+    bottom: 35%;
+    left: 15%;
+}
+
+.LeftLine1{
+    width: 100%;
+    height: auto;
+}
+
+.InfoIconContainer{
+    width: 25%;
+    height: auto;
+    position: relative;
+    bottom: 25%;
+}
+
+.InfoIcon{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.LeftLine2Container{
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 15%;
+    bottom: 15%;
+}
+
+.LeftLine2{
+    width: 100%;
+    height: auto;
+}
+
+.mailTextAndImgContainer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.mailTextImgContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 40%;
+    top: 10%;
+}
+
+.MailTextImg{
+    width: 100%;
+    height: auto;
+}
+
+
+.mailImgPopUpContainer{
+    width: 90%;
+    max-height: auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1;
+    margin-left: 5%;
+    transition: width 0.5s ease, background-color 1.5s ease;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.closePopUpMail{
+    position: relative;
+    left: 99%;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.MailImgPopUp{
+    width: 90%;
+    height: auto;
+    align-self: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.mailImgContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 20%;
+}
+
+.MailImg{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1480px){
+
+    .mailTitleContainer{
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 15rem;
+        left: 6rem;
+    }
+}
+
+@media screen and (max-width: 1360px){
+
+    .mailTitleContainer{
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 12rem;
+        left: 0rem;
+    }
+
+    .leftLinesContainer{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: relative;
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 1060px){
+
+    .mailTitleContainer{
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 8rem;
+        left: 0rem;
+    }
+
+    .leftLinesContainer{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: relative;
+        right: 8%;
+    }
+
+    .mailTextAndImgContainer{
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 0 0 0 0;
+    }
+
+    .mailTextImgContainer{
+        width: 100%;
+        height: auto;
+        position: relative;
+        right: 50%;
+        top: 10%;
+    }
+
+}

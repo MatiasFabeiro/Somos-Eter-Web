@@ -1,0 +1,283 @@
+.audioGeneralContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.audioContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.audioTitleImgContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.audioTitleImg{
+    width: 50%;
+    height: auto;
+    padding: 0 0 0 35rem;
+    position: relative;
+    bottom: 50px;
+}
+
+.audioInfoContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.AudiotextImgContainer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 0 0 20rem;
+    position: relative;
+    left: 500px;
+}
+
+.AudiotextImg{
+    width: 80%;
+    height: auto;
+    position: relative;
+    right: 20%;
+    bottom: 3rem;
+    // padding: 0 0 2rem 0;
+}
+
+.AudiotextImg2{
+    width: 80%;
+    height: auto;
+    position: relative;
+    right: 15%;
+}
+
+.LeftLineImgContainer{
+    width: 50%;
+    height: auto;
+}
+
+.AudioIconsImgContainer{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 15rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    bottom: 200px;
+}
+
+.LeftLineImg1{
+    width: 40%;
+    height: auto;
+}
+
+.audioSectionPlayerContainer{
+    width: 40%;
+    height: 100px;
+    padding: 5% 0 0 15%;
+}
+
+.audioSectionPlayer{
+    //width: 100%;
+    position: relative;
+    top: 2rem;
+    -webkit-animation: audioAnimatePlayer 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes audioAnimatePlayer {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+    
+        }
+    }
+}
+
+.audioSectionPlayerContainer2{
+    width: 40%;
+    height: 100px;
+    padding: 5% 0 0 15%;
+}
+
+.AudioWppImg{
+    // width: 100%;
+    // height: auto;
+    // margin: 3rem 0 0 13rem;
+    position: relative;
+    bottom: 1rem;
+    padding: 0 10% 0 0;
+    cursor: pointer;
+    -webkit-animation: audioAnimateAudioimg 0.3s ease-in;
+    -webkit-animation-fill-mode: forwards;
+    @keyframes audioAnimateAudioimg {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 40%;
+    
+        }
+    }
+}
+
+.LeftLineImg2{
+    width: 45%;
+    height: auto;
+    padding: 3rem 0 0 0;
+    position: relative;
+    right: 100px;
+}
+
+@media screen and (max-width: 1480px){
+
+    .AudiotextImg{
+        width: 80%;
+        height: auto;
+        position: relative;
+        right: 10%;
+        padding: 0 0 2rem 0;
+    }
+    
+    .AudiotextImg2{
+        width: 80%;
+        height: auto;
+        position: relative;
+        right: 10%;
+    }
+
+    .AudioWppImg{
+        // width: 15%;
+        // height: auto;
+        // margin: 1rem 0 0 10rem;
+        position: relative;
+        bottom: 1rem;
+        padding: 10% 10% 10% 0;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1360px){
+
+    .audioTitleImgContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    
+    .audioTitleImg{
+        width: 50%;
+        height: auto;
+        padding: 0 0 0 20rem;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .AudiotextImgContainer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 0 0 20rem;
+    position: relative;
+    left: 100px;
+    }
+    
+    .AudioIconsImgContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .AudioWppImg{
+        // width: 15%;
+        // height: auto;
+        // margin: 1rem 0 0 7rem;
+        position: relative;
+        bottom: 1rem;
+        padding: 10% 10% 0 0;
+        cursor: pointer;
+    }
+    
+    .LeftLineImg2{
+        width: 45%;
+        height: auto;
+        padding: 3rem 0 0 0;
+        position: relative;
+        right: 55px;
+    }
+}
+
+@media screen and (max-width: 1060px){
+
+    .audioTitleImgContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    
+    .audioTitleImg{
+        width: 50%;
+        height: auto;
+        padding: 0 0 0 16rem;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .AudiotextImgContainer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 0 0 16rem;
+    position: relative;
+    left: 100px;
+    }
+    
+    .AudioIconsImgContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .AudioWppImg{
+        // width: 15%;
+        // height: auto;
+        // margin: 1rem 0 0 6rem;
+        position: relative;
+        bottom: 1rem;
+        padding: 0 10% 0 0;
+        cursor: pointer;
+    }
+    
+    .LeftLineImg2{
+        width: 45%;
+        height: auto;
+        padding: 1rem 0 0 1rem;
+        position: relative;
+        right: 55px;
+    }
+}
