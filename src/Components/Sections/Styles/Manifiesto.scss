@@ -81,7 +81,15 @@
 .manifiestoSectionPlayerContainer{
     width: 20%;
     height: 100px;
-    padding: 5% 0 0 20%;
+    position: relative;
+    top: 5%;
+    left: 20%;
+    //padding: 5% 0 0 20%;
+    padding: 5% 0 0 0;
+}
+
+.manifiestoSectionPlayer{
+    //width: 100%;
     -webkit-animation: animatePlayer 0.3s ease-in;
     -webkit-animation-fill-mode: forwards;
     @keyframes animatePlayer {
@@ -89,14 +97,10 @@
             width: 0%;
         }
         100% {
-            width: 20%;
+            width: 100%;
     
         }
     }
-}
-
-.manifiestoSectionPlayer{
-    width: 100%;
 }
 
 
@@ -105,7 +109,7 @@
     height: auto;
     padding: 7rem 0 0 0;
     position: relative;
-    left: 5%;
+    left: 20%;
     bottom: 3rem;
 }
 
