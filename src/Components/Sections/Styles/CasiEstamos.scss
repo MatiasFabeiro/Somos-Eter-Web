@@ -162,8 +162,34 @@
     .CasiEstamosTextContainer{
         width: 100%;
         height: auto;
-        padding: 10rem 0 0 0;
+        padding: 20rem 0 0 0;
         position: relative;
         right: 15%;
     }
+
+    .CasiEstamosAudioWppContainer{
+        width: 100%;
+        height: auto;
+        padding: 3rem 0 3rem 0;
+        position: relative;
+        bottom: 25%;
+    }
+    
+    .CasiEstamosAudioWpp{
+        //width: 20%;
+        //height: auto;
+        cursor: pointer;
+        -webkit-animation: casiestamosAnimateAudioImg 0.3s ease-in;
+        -webkit-animation-fill-mode: forwards;
+        @keyframes casiestamosAnimateAudioImg {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 20%;
+        
+            }
+        }
+    }
+    
 }
